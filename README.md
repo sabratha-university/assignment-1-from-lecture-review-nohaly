@@ -16,7 +16,21 @@ Edit the `Main.java` file and:
 3. Identify where **overloading** and **overriding** occur in the code and explain the difference below.
 
 **Answer:**
-> _Write your explanation here..._
+> _Write your explaاnation here..._ الفرق بين Overloading و Overriding
+> Overloading
+ • تكون في نفس الكلاس.
+ • نفس اسم الدالة، لكن تختلف في عدد أو نوع المعاملات.
+ • يتم تحديدها في وقت الترجمة (Compile time).
+ • لا تحتاج إلى الكلمة @Override.
+ • الغرض منها تعدد استخدام نفس الدالة بطرق مختلفة
+> Overriding
+ • تكون بين كلاس أب وكلاس ابن.
+ • نفس اسم الدالة ونفس المعاملات تمامًا.
+ • يتم تحديدها في وقت التشغيل (Runtime).
+ • تُستخدم الكلمة @Override غالبًا.
+ • الغرض منها تغيير أو تخصيص سلوك الدالة في الكلاس الابن
+> تعدد التعريف يعني وجود دوال بنفس الاسم ولكن بمعلمات مختلفة داخل نفس الكلاس.
+ إعادة التعريف تعني وجود دالة بنفس الاسم والمعلمات في كلاس ابن تغير بها سلوك الدالة الموروثة من الكلاس الأب
 
 ---
 
